@@ -155,6 +155,24 @@
 
 .call-section {
     background-image: url('../img/34664326.jpg');
+    min-height: 40vh;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.call-section i {
+    font-size: 2rem;
+    padding: 1em;
+}
+
+.call-section span {
+    margin: 0 1em;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .1em;
 }
 
 /* Media Queries */
