@@ -70,7 +70,7 @@ body {
 /* FOOTER starts here */
 .footer {
     background: var(--primary-bg);
-    padding: 1em;
+    padding: 4em 1em;
 }
 
 .footer .footer-part-1 {
@@ -122,12 +122,16 @@ body {
 
     .footer-part-1, .footer-part-2 {
         width: auto !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
 
     .footer-part-3 {
         width: 100% !important;
         text-align: center;
         margin-top: 1em;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
     
 }
