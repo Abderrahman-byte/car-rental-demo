@@ -20,12 +20,14 @@
     display: flex;
     flex-wrap: wrap;
     max-width: 600px;
+    width: 90%;
     justify-content: space-between;
     margin: 0 auto;
 }
 
 .form-contact .form-span {
-    width: 48%;
+    width: 100%;
+    min-width: 280px;
     display: block;
     margin-bottom: 1em;
 }
@@ -59,4 +61,10 @@
     text-transform: capitalize;
     background-color: var(--primary-txt);
     color: var(--primary-bg);
+}
+
+@media (min-width: 660px) {
+    .form-contact .form-span:not(.form-span-area) { 
+        width: 48%;
+    }
 }
