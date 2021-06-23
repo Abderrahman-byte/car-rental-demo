@@ -161,15 +161,16 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    padding: 1em;
 }
 
 .call-section i {
     font-size: 2rem;
-    padding: 1em;
 }
 
 .call-section span {
     margin: 0 1em;
+    text-align: center;
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: .1em;

@@ -66,3 +66,68 @@ body {
     align-items: center;
     flex-wrap: wrap;
 }
+
+/* FOOTER starts here */
+.footer {
+    background: var(--primary-bg);
+    padding: 1em;
+}
+
+.footer .footer-part-1 {
+    margin-bottom: 1em;
+    width: fit-content;
+}
+
+.footer .logo h1, .footer .logo a {
+    color: var(--primary-txt);
+    text-decoration: none;
+    font-size: 3rem;
+    font-weight: 300;
+    letter-spacing: .1em;
+}
+
+.footer .logo span {
+    display: block;
+    font-size: 1.25rem;
+    letter-spacing: 0;
+    font-weight: 300;
+}
+
+.footer .footer-part-2 {
+    font-size: 1rem;
+    letter-spacing: .1em;
+    line-height: 30px;
+    margin-bottom: 1.5em;
+    width: fit-content;
+}
+
+.footer .footer-part-3 {
+    width: fit-content;
+    font-size: .9rem;
+    letter-spacing: .1em;
+}
+
+.footer > div {
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+@media (min-width: 800px) {
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .footer-part-1, .footer-part-2 {
+        width: auto !important;
+    }
+
+    .footer-part-3 {
+        width: 100% !important;
+        text-align: center;
+        margin-top: 1em;
+    }
+    
+}
