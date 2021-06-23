@@ -1,0 +1,62 @@
+.title {
+    padding: 3em 0;
+    background: white;
+}
+
+.title h2 {
+    text-align: center;
+    letter-spacing: .1em;
+    font-size: 2rem;
+}
+
+.form-container {
+    background-color: white;
+    padding-top: 1em;
+    padding-bottom: 3em;
+    border-bottom: 1px solid var(--border-clr);
+}
+
+.form-contact {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.form-contact .form-span {
+    width: 48%;
+    display: block;
+    margin-bottom: 1em;
+}
+
+.form-contact .form-span-area {
+    width: 100%;
+}
+
+.form-contact .form-span input, .form-contact .form-span textarea {
+    width: 100%;
+    padding: 1em;
+    outline: none;
+    font-size: 1.1rem;
+    border: 1px solid var(--border-clr);
+    border-radius: 5px;
+}
+
+.form-contact .form-span textarea {
+    resize: none;
+    height: 200px;
+}
+
+.submit-btn {
+    display: block;
+    margin: .5em auto;
+    border: 1px solid var(--border-clr);
+    font-size: 1.25rem;
+    cursor: pointer;
+    padding: .4em 1.7em;
+    border-radius: 50px;
+    text-transform: capitalize;
+    background-color: var(--primary-txt);
+    color: var(--primary-bg);
+}
